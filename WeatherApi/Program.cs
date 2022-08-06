@@ -11,9 +11,9 @@ builder.Services.AddSwaggerDocument(options =>
     options.DocumentName = "My Amazing API";
     //options.Version = "V1";
 });
-builder.Services.AddHttpClient("reddit", configureClient: client =>
+builder.Services.AddHttpClient("disney", configureClient: client =>
 {
-    client.BaseAddress = new Uri("https://www.reddit.com/dev/api");
+    client.BaseAddress = new Uri("https://api.disneyapi.dev/characters");
 });
 
 var app = builder.Build();

@@ -1,28 +1,27 @@
 ﻿<Properties StartupConfiguration="{780D22A3-ACDF-41DB-80C3-B474AC20A2B3}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.WeatherApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.UnitTesting FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTesting/UnitTest1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApi/Program.cs">
     <Files>
-      <File FileName="UnitTesting/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="WeatherApi/appsettings.json" Line="1" Column="1" />
+      <File FileName="WeatherApi/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="WeatherApi/Program.cs" Line="1" Column="1" />
+      <File FileName="WeatherApi/Controllers/ReditController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WeatherApi" expanded="True">
-            <Node name="UnitTesting" expanded="True" selected="True" />
+            <Node name="UnitTesting" expanded="True" />
             <Node name="WeatherApi" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
